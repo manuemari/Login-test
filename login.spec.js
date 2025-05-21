@@ -1,7 +1,7 @@
 beforeEach(() => {
   // Hook a nivel raíz
   cy.log("Root Before each");
-  cy.visit("https://www.saucedemo.com/");
+  cy.visit("https://www.saucedemo.com/"); 
 });
 
 context("Hooks", () => {
